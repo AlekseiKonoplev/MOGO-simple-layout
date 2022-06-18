@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.hr {
+    width: 100%;
+    border: 1px #e5e5e5 solid;
+    margin: 50px 0;
+}
+
+
 
 /* CONTAINER */
 .container {
@@ -348,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 
     border-left: 1px #b6ebe1 solid; 
     
-    padding: 80px 0;
+    padding: 70px 25px;
 }
 
 .statistics__inner:last-child {
@@ -361,4 +368,54 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px;
+}
+
+
+
+/* SERVICES */
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
+    width: 100%;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+}
+
+.services__name {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.services__description {
+    color: #9b9b9b;
+    margin-bottom: 0;
+}
+
+.services__icon {
+    position: absolute;
+    top: 3px;
+    left: 25px
+}
+
+
+
+/* DEVICES */
+.section--devices {
+    margin-top: 120px;
+
+    background: url(/assets/images/devices/devices_bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section__devices {
+    width: 100%;
+    max-width: 600px;
+}
+
+.devices__tablet {
+    height: ;
 }
